@@ -1,6 +1,6 @@
 import "./Searchbar.scss";
 
-const Searchbar = ({height = "48px", width="33%"}: {height?:string; width?:string}) => {
+const Searchbar = ({height = "48px", width="42%"}: {height?:string; width?:string}) => {
 	
 	const buttonHeight = `calc(${height} * 0.8)`;
 	const buttonIndent = `calc(${height} * 0.1)`;
