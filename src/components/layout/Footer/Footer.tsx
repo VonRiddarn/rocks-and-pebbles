@@ -1,4 +1,4 @@
-import Socials from "../Socials/Socials";
+import Socials from "../../ui/Socials/Socials";
 import "./Footer.scss";
 
 const Footer = () => (
