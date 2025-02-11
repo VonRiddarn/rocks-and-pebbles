@@ -7,12 +7,12 @@ function App() {
   return (
 	<>
 		<Header />
-		<main style={{height: "calc(100vh - 431px)"}}>
+		<main style={{height: "calc(100vh - 281px)"}}>
 			<p>MAIN</p>
 		</main>
 		<Footer />
 	</>
-  )
+  );
 }
 
 export default App
