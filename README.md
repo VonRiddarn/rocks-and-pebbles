@@ -1,2 +1,2 @@
 # ![Icon](/public/icon.svg) Rocks & Pebbles
-The one stop shop for buying rocks!
+Your one stop shop for buying rocks!
