@@ -1,7 +1,7 @@
-import CartIcon from "../../features/Cart/CartIcon";
-import CategoryList from "../../features/CategoryRow/CategoryList";
+import CartIcon from "../../features/Cart/CartIcon/CartIcon";
+import CategoryList from "../../features/CategoryRow/CategoryList/CategoryList";
 import Divider from "../../ui/Divider/Divider";
-import Searchbar from "../../ui/Searchbar/Searchbar";
+import Searchbar from "../../features/search/Searchbar/Searchbar";
 import "./Header.scss";
 
 const Header = () => (
