@@ -1,5 +1,6 @@
 import Cart from "../Cart/Cart";
 import Divider from "../Divider/Divider";
+import Searchbar from "../Searchbar/Searchbar";
 import "./Header.scss";
 
 const Header = () => (
@@ -9,6 +10,7 @@ const Header = () => (
 				<img src="icon.svg" alt="ICON" />
 				<h1>Rocks & Pebbles</h1>
 			</span>
+			<Searchbar />
 			<Cart />
 		</section>
 		<Divider />
