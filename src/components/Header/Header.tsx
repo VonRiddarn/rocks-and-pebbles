@@ -5,7 +5,7 @@ import Searchbar from "../Searchbar/Searchbar";
 import "./Header.scss";
 
 const Header = () => (
-	<header>
+	<header className="Header">
 		<section>
 			<span>
 				<img src="icon.svg" alt="ICON" />
