@@ -1,5 +1,5 @@
-import Cart from "../../ui/Cart/Cart";
-import CategoryRow from "../../features/CategoryRow/CategoryRow";
+import CartIcon from "../../features/Cart/CartIcon";
+import CategoryList from "../../features/CategoryRow/CategoryList";
 import Divider from "../../ui/Divider/Divider";
 import Searchbar from "../../ui/Searchbar/Searchbar";
 import "./Header.scss";
@@ -12,10 +12,10 @@ const Header = () => (
 				<h1>Rocks & Pebbles</h1>
 			</span>
 			<Searchbar width="80%"/>
-			<Cart />
+			<CartIcon />
 		</section>
 		<Divider />
-		<CategoryRow />
+		<CategoryList />
 	</header>
 );
 

@@ -1,7 +1,7 @@
-import "./CategoryRow.scss";
+import "./CategoryList.scss";
 
-const CategoryRow = () => (
-	<nav className="CategoryRow">
+const CategoryList = () => (
+	<nav className="CategoryList">
 		<ul>
 			<li>Igneous</li>
 			<li>Sedimentary</li>
@@ -14,4 +14,4 @@ const CategoryRow = () => (
 	</nav>
 )
 
-export default CategoryRow;
+export default CategoryList;
