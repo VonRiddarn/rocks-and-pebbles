@@ -1,5 +1,7 @@
 .Cart {
-	width: 64px;
+
+	flex-shrink: 0;
+	height: 64px;
 	aspect-ratio: 1/1;
 
 	&:hover {
