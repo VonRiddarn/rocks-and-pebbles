@@ -1,0 +1,21 @@
+.Socials {
+
+	ul {
+		display: flex;
+		gap: 1rem;
+
+		list-style-type: none;
+
+		margin: 1rem;
+	}
+
+	img,
+	svg {
+		aspect-ratio: 1/1;
+		transition: filter 0.2s ease;
+
+		&:hover {
+			filter:invert(1);
+		}
+	}
+}
