@@ -5,13 +5,13 @@ import Header from './components/Header/Header'
 function App() {
 
   return (
-    <>
+	<>
 		<Header />
-		<main>
+		<main style={{height: "calc(100vh - 431px)"}}>
 			<p>MAIN</p>
 		</main>
 		<Footer />
-    </>
+	</>
   )
 }
 
