@@ -1,21 +1,40 @@
 @use "/src/sass/base/reset";
 
 .Searchbar {
-	display: flex;
 	position: relative;
+	display: flex;
+
+
+	form {
+		background-color: white;
+		border: 1px solid gray;
+
+		width: 100%;
+		height: 100%;
+
+		>* {
+			height: 100%;
+		}
+	}
 
 	input {
-		width: 100%;
+		background-color: unset;
+		border: unset;
 		font-size: medium;
+		padding-left: 1rem;
+
+		&:focus {
+			outline: none;
+		}
 	}
 
 	button {
 		background-color: unset;
+		border: unset;
 		
 		position: absolute;
 		right: 0;
 		
-		border: unset;
 		aspect-ratio: 1/1;
 	}
 	
