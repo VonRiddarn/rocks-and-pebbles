@@ -29,12 +29,14 @@
 	}
 
 	button {
-		background-color: unset;
 		border: unset;
 		
 		position: absolute;
-		right: 0;
-		
+
+		top: 50%;// Moves the top edge to the middle
+		transform: translateY(-50%); // Pulls it back up by half its own height
+
+
 		aspect-ratio: 1/1;
 	}
 	
