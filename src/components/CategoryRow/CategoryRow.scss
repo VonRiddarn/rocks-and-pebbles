@@ -1,0 +1,17 @@
+.CategoryRow {
+	background-color: #3a3a3a;
+	height: 32px;
+
+	ul {
+		display: flex;
+		gap: 2em;
+		list-style-type: none;
+		justify-content: center;
+		height: 100%;
+
+		li {
+			display: flex;
+			align-items: center;
+		}
+	}
+}
