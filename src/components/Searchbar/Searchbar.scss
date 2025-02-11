@@ -4,7 +4,6 @@
 	position: relative;
 	display: flex;
 
-
 	form {
 		background-color: white;
 		border: 2px solid gray;
@@ -29,22 +28,29 @@
 	}
 
 	button {
-		border: unset;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		
+		background-color: #0e66da;
+		border: unset;
+
 		position: absolute;
 
 		top: 50%;// Moves the top edge to the middle
 		transform: translateY(-50%); // Pulls it back up by half its own height
 
 
-		aspect-ratio: 1/1;
+		aspect-ratio: 1.25/1;
+
+		img {
+			height: 75%;
+			aspect-ratio: 1/1;
+		}
 	}
-	
+
 	button:hover {
-		color: red;
-	}
-	
-	button:active {
-		color: rgb(0, 132, 255);
+		background-color: #052aa5;
 	}
 }
