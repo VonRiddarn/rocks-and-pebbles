@@ -11,7 +11,7 @@ const Header = () => (
 				<img src="icon.svg" alt="ICON" />
 				<h1>Rocks & Pebbles</h1>
 			</span>
-			<Searchbar />
+			<Searchbar width="80%"/>
 			<Cart />
 		</section>
 		<Divider />
