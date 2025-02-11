@@ -1,4 +1,5 @@
 import Cart from "../Cart/Cart";
+import CategoryRow from "../CategoryRow/CategoryRow";
 import Divider from "../Divider/Divider";
 import Searchbar from "../Searchbar/Searchbar";
 import "./Header.scss";
@@ -14,6 +15,7 @@ const Header = () => (
 			<Cart />
 		</section>
 		<Divider />
+		<CategoryRow />
 	</header>
 );
 
