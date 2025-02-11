@@ -16,7 +16,7 @@ const Searchbar = ({height = "48px", width="42%", aspect="1.25/1"}: {height?:str
 					borderBottomRightRadius: buttonHeight, 
 					right: buttonIndent,
 					aspectRatio: aspect}}>
-					<img src="search.svg" alt="SEARCH" />
+					<img src="/src/assets/search.svg" alt="SEARCH" />
 				</button>
 			</form>
 		</div>
