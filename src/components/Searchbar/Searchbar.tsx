@@ -6,14 +6,14 @@ const Searchbar = ({height = "48px", width="42%"}: {height?:string; width?:strin
 	const buttonIndent = `calc(${height} * 0.1)`;
 	
 	return (
-		<section className="Searchbar" style={{height: height, width: width}}>
+		<div className="Searchbar" style={{height: height, width: width}}>
 			<form style={{borderRadius: height, paddingRight: `calc(${height} * 0.1)`}}>
 				<input type="text" style={{width: `calc(100% - ${height})`}} placeholder="Search..." />
 				<button style={{height: buttonHeight, borderTopRightRadius: buttonHeight, borderBottomRightRadius: buttonHeight, right: buttonIndent}}>
 					<img src="search.svg" alt="SEARCH" />
 				</button>
 			</form>
-		</section>
+		</div>
 	);
 }
 
