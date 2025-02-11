@@ -1,0 +1,27 @@
+@use "/src/sass/base/reset";
+
+.Searchbar {
+	display: flex;
+	position: relative;
+
+	input {
+		width: 100%;
+	}
+
+	button {
+		background-color: unset;
+		
+		position: absolute;
+		
+		border: unset;
+		aspect-ratio: 1/1;
+	}
+	
+	button:hover {
+		color: red;
+	}
+	
+	button:active {
+		color: rgb(0, 132, 255);
+	}
+}
