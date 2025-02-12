@@ -1,8 +1,9 @@
-import { ReactNode } from "react";
+import { ReactElement } from "react";
 import "./CategoryList.scss";
+import CategoryListing from "../CategoryListing/CategoryListing";
 
 type CategoryListProps = {
-	children:ReactNode;
+	children:ReactElement<typeof CategoryListing> | ReactElement<typeof CategoryListing>[];
 }
 
 const CategoryList = ({children}:CategoryListProps) => (
