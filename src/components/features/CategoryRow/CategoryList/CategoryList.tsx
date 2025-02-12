@@ -1,15 +1,14 @@
+import { ReactNode } from "react";
 import "./CategoryList.scss";
 
-const CategoryList = () => (
+type CategoryListProps = {
+	children:ReactNode;
+}
+
+const CategoryList = ({children}:CategoryListProps) => (
 	<nav className="CategoryList">
 		<ul>
-			<li>Igneous</li>
-			<li>Sedimentary</li>
-			<li>Metamorphic</li>
-			<li>Granite</li>
-			<li>Limestone</li>
-			<li>Marble</li>
-			<li>Special</li>
+			{children}
 		</ul>
 	</nav>
 )
