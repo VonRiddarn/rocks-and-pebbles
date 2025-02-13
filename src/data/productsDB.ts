@@ -12,7 +12,7 @@ export type Product = {
 	filters: string[];
 };
 
-export const rockDB: Product[] = [
+export const productsDB: Product[] = [
 	{
 		id: 0,
 		name: "Basalt",
