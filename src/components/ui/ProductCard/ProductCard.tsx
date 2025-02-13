@@ -6,7 +6,7 @@ type ProductCardProps = {
 };
 
 const ProductCard = ({ product }: ProductCardProps) => (
-	<article>
+	<article className="ProductCard">
 		<img src={product.image ? product.image : "/icon.svg"} alt={`${product.name}`} />
 		<h2>{product.name}</h2>
 		<p>{product.description}</p>
