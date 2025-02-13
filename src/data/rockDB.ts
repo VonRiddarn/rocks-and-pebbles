@@ -1,6 +1,6 @@
 type Category = "Igneous" | "Sedimentary" | "Metamorphic" | "Granite" | "Limestone" | "Marble" | "Special";
 
-type Rock = {
+type Product = {
 	name: string;
 	description: string;
 	category: Category;
@@ -10,7 +10,7 @@ type Rock = {
 	filters: string[];
 };
 
-const rockDB: Rock[] = [
+const rockDB: Product[] = [
 	{
 		name: "Basalt",
 		description: "A dark, fine-grained volcanic rock formed from rapidly cooling lava.",
