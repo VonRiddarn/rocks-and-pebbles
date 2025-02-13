@@ -21,9 +21,6 @@ const Header = (state: FilterTextState) => (
 			<CategoryListing title="Igneous" />
 			<CategoryListing title="Sedimentary" />
 			<CategoryListing title="Metamorphic" />
-			<CategoryListing title="Granite" />
-			<CategoryListing title="Limestone" />
-			<CategoryListing title="Marble" />
 			<CategoryListing title="Special" />
 		</CategoryList>
 	</header>
