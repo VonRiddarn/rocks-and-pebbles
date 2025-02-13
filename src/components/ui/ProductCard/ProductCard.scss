@@ -1,0 +1,18 @@
+.ProductCard {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	text-align: center;
+
+	padding: 1rem;
+
+	width: 200px;
+	height: 300px; // TEMP : Will change when card is expanded upon - make dynamic
+
+	box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+
+	* {
+		padding: 1rem 0;
+	}
+}
