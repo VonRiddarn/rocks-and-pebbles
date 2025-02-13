@@ -1,10 +1,13 @@
+import { FilterTextState } from "../../../../App";
 import "./Searchbar.scss";
 
 const Searchbar = ({
+	state,
 	height = "48px",
 	width = "42%",
 	aspect = "1.25/1",
 }: {
+	state: FilterTextState;
 	height?: string;
 	width?: string;
 	aspect?: string;
@@ -18,8 +21,13 @@ const Searchbar = ({
 			<form style={{ borderRadius: height, paddingRight: `calc(${height} * 0.1)` }}>
 				<input
 					type="text"
+					value={state.filterText}
 					style={{ width: `calc(100% - calc(${height} * ${aspectW}))` }}
 					placeholder="Search..."
+					onChange={(e) => {
+						console.log(e.target.value);
+						return state.setFilterText(e.target.value);
+					}}
 				/>
 				<button
 					style={{

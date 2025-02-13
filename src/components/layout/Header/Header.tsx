@@ -4,15 +4,16 @@ import Divider from "../../ui/Divider/Divider";
 import Searchbar from "../../features/search/Searchbar/Searchbar";
 import "./Header.scss";
 import CategoryListing from "../../features/CategoryRow/CategoryListing/CategoryListing";
+import { FilterTextState } from "../../../App";
 
-const Header = () => (
+const Header = (state: FilterTextState) => (
 	<header className="Header">
 		<section>
 			<span>
 				<img src="icon.svg" alt="ICON" />
 				<h1>Rocks & Pebbles</h1>
 			</span>
-			<Searchbar width="80%" />
+			<Searchbar state={state} width="80%" />
 			<CartIcon />
 		</section>
 		<Divider />
