@@ -12,7 +12,7 @@ const Header = () => (
 				<img src="icon.svg" alt="ICON" />
 				<h1>Rocks & Pebbles</h1>
 			</span>
-			<Searchbar width="80%"/>
+			<Searchbar width="80%" />
 			<CartIcon />
 		</section>
 		<Divider />

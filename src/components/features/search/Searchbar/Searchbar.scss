@@ -8,7 +8,7 @@
 		width: 100%;
 		height: 100%;
 
-		>* {
+		> * {
 			height: 100%;
 		}
 	}
@@ -25,17 +25,16 @@
 	}
 
 	button {
-
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		
+
 		background-color: #0e66da;
 		border: unset;
 
 		position: absolute;
 
-		top: 50%;// Moves the top edge to the middle
+		top: 50%; // Moves the top edge to the middle
 		transform: translateY(-50%); // Pulls it back up by half its own height
 
 		cursor: pointer;
