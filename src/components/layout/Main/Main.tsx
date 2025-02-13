@@ -1,11 +1,12 @@
+import { FilterTextState } from "../../../App";
 import { productsDB } from "../../../data/productsDB";
 import ProductCardContainer from "../ProductContainer/ProductCardContainer";
 import "./Main.scss";
 
-const Main = () => {
+const Main = (state: FilterTextState) => {
 	return (
 		<main className="Main">
-			<ProductCardContainer products={productsDB} />
+			<ProductCardContainer state={state} products={productsDB} />
 		</main>
 	);
 };

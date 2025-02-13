@@ -15,7 +15,7 @@ function App() {
 	return (
 		<>
 			<Header filterText={filterText} setFilterText={setFilterText} />
-			<Main />
+			<Main filterText={filterText} setFilterText={setFilterText} />
 			<Footer />
 		</>
 	);
