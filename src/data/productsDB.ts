@@ -1,6 +1,8 @@
 type Category = "Igneous" | "Sedimentary" | "Metamorphic" | "Granite" | "Limestone" | "Marble" | "Special";
 
 export type Product = {
+	id: number;
+	image?: string;
 	name: string;
 	description: string;
 	category: Category;
@@ -12,6 +14,7 @@ export type Product = {
 
 export const rockDB: Product[] = [
 	{
+		id: 0,
 		name: "Basalt",
 		description: "A dark, fine-grained volcanic rock formed from rapidly cooling lava.",
 		category: "Igneous",
@@ -21,6 +24,7 @@ export const rockDB: Product[] = [
 		filters: ["small", "medium", "hard"],
 	},
 	{
+		id: 1,
 		name: "Andesite",
 		description: "A grayish volcanic rock with a fine to intermediate grain size.",
 		category: "Igneous",
@@ -30,6 +34,7 @@ export const rockDB: Product[] = [
 		filters: ["medium", "rough", "hard"],
 	},
 	{
+		id: 2,
 		name: "Rhyolite",
 		description: "A light-colored volcanic rock, often pink or gray, with a high silica content.",
 		category: "Igneous",
@@ -39,6 +44,7 @@ export const rockDB: Product[] = [
 		filters: ["medium", "rough", "brittle"],
 	},
 	{
+		id: 3,
 		name: "Obsidian",
 		description: "A natural volcanic glass, smooth and sharp-edged.",
 		category: "Igneous",
@@ -48,6 +54,7 @@ export const rockDB: Product[] = [
 		filters: ["glassy", "sharp", "fragile"],
 	},
 	{
+		id: 4,
 		name: "Pumice",
 		description: "A lightweight, porous volcanic rock that can float on water.",
 		category: "Igneous",
@@ -57,6 +64,7 @@ export const rockDB: Product[] = [
 		filters: ["porous", "light", "soft"],
 	},
 	{
+		id: 5,
 		name: "Granite",
 		description: "A tough, speckled rock often used for countertops and monuments.",
 		category: "Granite",
@@ -66,6 +74,7 @@ export const rockDB: Product[] = [
 		filters: ["speckled", "very hard"],
 	},
 	{
+		id: 6,
 		name: "Limestone",
 		description: "A calcium-rich rock often containing fossilized shells.",
 		category: "Limestone",
@@ -75,6 +84,7 @@ export const rockDB: Product[] = [
 		filters: ["smooth", "medium-hard"],
 	},
 	{
+		id: 7,
 		name: "Marble",
 		description: "A beautiful, polished stone used in sculptures and buildings.",
 		category: "Marble",
@@ -84,6 +94,7 @@ export const rockDB: Product[] = [
 		filters: ["polished", "hard"],
 	},
 	{
+		id: 8,
 		name: "Quartzite",
 		description: "A super-hard rock made from metamorphosed sandstone.",
 		category: "Metamorphic",
@@ -93,6 +104,7 @@ export const rockDB: Product[] = [
 		filters: ["rough", "very hard"],
 	},
 	{
+		id: 9,
 		name: "Kimberlite",
 		description: "The rock where diamonds are born—feeling lucky?",
 		category: "Special",
@@ -102,6 +114,7 @@ export const rockDB: Product[] = [
 		filters: ["rare", "valuable"],
 	},
 	{
+		id: 10,
 		name: "Lapis Lazuli",
 		description: "A deep blue rock once used for royal jewelry and paintings.",
 		category: "Special",
@@ -111,6 +124,7 @@ export const rockDB: Product[] = [
 		filters: ["polished", "rare", "valuable"],
 	},
 	{
+		id: 11,
 		name: "Geodes",
 		description: "A boring rock on the outside, but a crystal wonderland inside.",
 		category: "Special",
@@ -120,6 +134,7 @@ export const rockDB: Product[] = [
 		filters: ["rough outside", "crystal inside", "magical"],
 	},
 	{
+		id: 12,
 		name: "Fulgurite",
 		description: "A tube-like rock formed by lightning striking sand.",
 		category: "Special",
@@ -129,6 +144,7 @@ export const rockDB: Product[] = [
 		filters: ["tube-shaped", "fragile", "rare"],
 	},
 	{
+		id: 13,
 		name: "Scoria",
 		description: "A dark, vesicular volcanic rock, often reddish-brown.",
 		category: "Igneous",
@@ -138,6 +154,7 @@ export const rockDB: Product[] = [
 		filters: ["porous", "rough", "light"],
 	},
 	{
+		id: 14,
 		name: "Gabbro",
 		description: "A coarse-grained, dark-colored igneous rock formed deep underground.",
 		category: "Igneous",
@@ -147,6 +164,7 @@ export const rockDB: Product[] = [
 		filters: ["rough", "hard"],
 	},
 	{
+		id: 15,
 		name: "Diorite",
 		description: "A speckled black-and-white rock, often mistaken for granite.",
 		category: "Igneous",
@@ -156,6 +174,7 @@ export const rockDB: Product[] = [
 		filters: ["speckled", "rough", "hard"],
 	},
 	{
+		id: 16,
 		name: "Pegmatite",
 		description: "A coarse-grained igneous rock with giant mineral crystals.",
 		category: "Igneous",
@@ -165,6 +184,7 @@ export const rockDB: Product[] = [
 		filters: ["large crystals", "rough", "very hard"],
 	},
 	{
+		id: 17,
 		name: "Sandstone",
 		description: "A soft, grainy rock formed from compacted sand particles.",
 		category: "Sedimentary",
@@ -174,6 +194,7 @@ export const rockDB: Product[] = [
 		filters: ["layered", "soft", "porous"],
 	},
 	{
+		id: 18,
 		name: "Shale",
 		description: "A fine-grained rock that easily splits into thin sheets.",
 		category: "Sedimentary",
@@ -183,6 +204,7 @@ export const rockDB: Product[] = [
 		filters: ["layered", "fragile"],
 	},
 	{
+		id: 19,
 		name: "Conglomerate",
 		description: "A rock made of pebbles cemented together by natural minerals.",
 		category: "Sedimentary",
@@ -192,6 +214,7 @@ export const rockDB: Product[] = [
 		filters: ["rough", "chunky", "medium-hard"],
 	},
 	{
+		id: 20,
 		name: "Breccia",
 		description: "Like conglomerate, but with angular rock fragments.",
 		category: "Sedimentary",
@@ -201,6 +224,7 @@ export const rockDB: Product[] = [
 		filters: ["jagged", "rough", "medium-hard"],
 	},
 	{
+		id: 21,
 		name: "Chalk",
 		description: "A soft, white rock that leaves a mark on surfaces.",
 		category: "Sedimentary",
@@ -210,6 +234,7 @@ export const rockDB: Product[] = [
 		filters: ["soft", "dusty", "brittle"],
 	},
 	{
+		id: 22,
 		name: "Coal",
 		description: "A black, lightweight rock made from ancient plant matter.",
 		category: "Sedimentary",
@@ -219,6 +244,7 @@ export const rockDB: Product[] = [
 		filters: ["dusty", "brittle", "light"],
 	},
 	{
+		id: 23,
 		name: "Travertine",
 		description: "A banded rock formed from mineral-rich hot springs.",
 		category: "Sedimentary",
@@ -228,6 +254,7 @@ export const rockDB: Product[] = [
 		filters: ["banded", "porous", "medium-hard"],
 	},
 	{
+		id: 24,
 		name: "Schist",
 		description: "A shiny, flaky rock with visible mica crystals.",
 		category: "Metamorphic",
@@ -237,6 +264,7 @@ export const rockDB: Product[] = [
 		filters: ["flaky", "brittle"],
 	},
 	{
+		id: 25,
 		name: "Gneiss",
 		description: "A striped, high-grade metamorphic rock formed under pressure.",
 		category: "Metamorphic",
@@ -246,6 +274,7 @@ export const rockDB: Product[] = [
 		filters: ["striped", "rough", "hard"],
 	},
 	{
+		id: 26,
 		name: "Slate",
 		description: "A fine-grained rock that splits into thin, smooth sheets.",
 		category: "Metamorphic",
@@ -255,6 +284,7 @@ export const rockDB: Product[] = [
 		filters: ["flat", "smooth", "medium-hard"],
 	},
 	{
+		id: 27,
 		name: "Eclogite",
 		description: "A rare, high-pressure rock with striking red and green minerals.",
 		category: "Metamorphic",
@@ -264,6 +294,7 @@ export const rockDB: Product[] = [
 		filters: ["rare", "very hard"],
 	},
 	{
+		id: 28,
 		name: "Tektite",
 		description: "A natural glass rock formed by meteor impacts—space rock!",
 		category: "Special",
@@ -273,6 +304,7 @@ export const rockDB: Product[] = [
 		filters: ["glassy", "rare", "hard"],
 	},
 	{
+		id: 29,
 		name: "Moqui Marbles",
 		description: "Small, round iron oxide stones, also called 'Shaman Stones.'",
 		category: "Special",
