@@ -1,9 +1,11 @@
+import { productsDB } from "../../../data/productsDB";
+import ProductCardContainer from "../ProductContainer/ProductCardContainer";
 import "./Main.scss";
 
 const Main = () => {
 	return (
 		<main className="Main">
-			<div>StoreContainer</div>
+			<ProductCardContainer products={productsDB} />
 		</main>
 	);
 };
